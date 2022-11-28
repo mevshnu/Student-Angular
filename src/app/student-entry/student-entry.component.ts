@@ -7,4 +7,30 @@ import { Component } from '@angular/core';
 })
 export class StudentEntryComponent {
 
+name=""
+rollno=""
+addmissionNo=""
+mobile=""
+college=""
+parentName=""
+parentNumber=""
+userName=""
+password=""
+
+eventEntry=()=>
+{
+  let data:any={
+    "name":this.name,
+    "rollno":this.rollno,
+    "addmissionNo":this.addmissionNo,
+    "mobile":this.mobile,
+    "college":this.college,
+    "parentName":this.parentName,
+    "parentNumber":this.parentNumber,
+    "userName":this.userName,
+    "password":this.password
+  }
+  console.log(data)
+}
+
 }

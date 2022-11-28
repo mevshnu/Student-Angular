@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
-
+  addmissionNo=""
+  eventSearch=()=>
+{
+  let data4:any={
+   
+    "addmissionNo":this.addmissionNo,
+   
+    
+  }
+  console.log(data4)
+}
 }

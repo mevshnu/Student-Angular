@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./delete.component.css']
 })
 export class DeleteComponent {
-
+  addmissionNo=""
+  eventDelete=()=>
+{
+  let data2:any={
+   
+    "addmissionNo":this.addmissionNo,
+   
+    
+  }
+  console.log(data2)
+}
 }

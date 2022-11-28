@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./edit.component.css']
 })
 export class EditComponent {
-
+  addmissionNo=""
+  eventEdit=()=>
+{
+  let data3:any={
+   
+    "addmissionNo":this.addmissionNo,
+   
+    
+  }
+  console.log(data3)
+}
 }
